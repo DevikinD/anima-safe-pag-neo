@@ -1,0 +1,20 @@
+/* Anima Safe PAG — compact "Preset" section */
+.anima-safe-pag-section-title {
+    margin: 0 0 4px 0 !important;
+    font-size: 0.85em;
+    opacity: 0.8;
+}
+
+.anima-safe-pag-preset-row {
+    gap: 8px;
+}
+
+/* small, equal-width, fully rounded buttons sitting next to each other */
+.anima-safe-pag-preset-btn {
+    border-radius: var(--button-large-radius, 8px);
+    min-width: 0;
+    width: 100%;
+    padding: 0.3em 0.5em;
+    font-size: 0.85em;
+    line-height: 1.4;
+}

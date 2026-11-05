@@ -283,9 +283,7 @@ def _pag_post_cfg(cfg_args, *, model, blocks, indices, heads, strength, scale,
 
 
 class ScriptAnimaSafePAG(scripts.Script):
-    """Renders like the built-in 'Sparse Attention Integrated' extension:
-    a standalone InputAccordion in the txt2img/img2img column. Opening the
-    accordion enables the patch (default: closed = OFF)."""
+    sorting_priority = 530
 
     def title(self):
         return "Anima Safe PAG"
